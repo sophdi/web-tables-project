@@ -1,0 +1,61 @@
+/* Загальні стилі для таблиць */
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+td {
+  border: 2px solid black;
+  text-align: center ;
+  height: 50px;
+}
+
+/* Стилі для першої таблиці */
+.table-1 {
+  width: 75%;
+}
+
+.table-1 .cell-1-4-7,
+.table-1 .cell-2,
+.table-1 .cell-3 {
+  width: 33.33%;
+}
+
+.table-1 .cell-5-6 {
+  height: 200px;
+}
+
+
+/* Стилі для другої таблиці */
+.table-2 {
+  width: 100%; 
+}
+
+.table-2 .cell-3 {
+  width: 60%; 
+}
+
+.table-2 .cell-4 {
+  width: 28%; 
+}
+
+/* Стилі для вкладеної таблиці */
+.nested-table {
+  width: 80%;
+  margin: 20px auto; 
+}
+
+.nested-table .cell-nested-1,
+.nested-table .cell-nested-2-5-8,
+.nested-table .cell-nested-3-6 {
+  width: 33.33%; 
+}
+
+/* має бути по 200 */
+.nested-table .cell-nested-3-6 {
+  height: 150px; /* 2 рядки по 50px */
+}
+
+.nested-table .cell-nested-4-7 {
+  height: 150px; /* 2 рядки по 50px */
+}
