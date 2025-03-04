@@ -1,0 +1,9 @@
+# macOS системні файли
+.DS_Store
+.DS_Store?
+
+# Кеш браузера та IDE
+.vscode/
+.idea/
+*.swp
+*.swo
