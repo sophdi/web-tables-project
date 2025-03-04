@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Таблиця 2</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <table class="table-2">
+    <tr>
+      <td class="cell-1-2" colspan="2">1-2</td>
+      <td class="cell-3">3</td>
+    </tr>
+    <tr>
+      <td class="cell-4">4</td>
+      <td rowspan="2" colspan="2">
+        <table class="nested-table">
+          <tr>
+            <td class="cell-nested-1">1</td>
+            <td class="cell-nested-2-5-8" rowspan="3">2-5-8</td>
+            <td class="cell-nested-3-6" rowspan="2">3-6</td>
+          </tr>
+          <tr>
+            <td class="cell-nested-4-7" rowspan="2">4-7</td>
+          </tr>
+          <tr>
+            <td class="cell-nested-9">9</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td class="cell-7">7</td>
+    </tr>
+  </table>
+</body>
+</html>
