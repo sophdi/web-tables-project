@@ -31,7 +31,7 @@ td {
 
 /* стилі для другої таблиці */
 .table-2 {
-  width: 90%;
+  width: 80%;
 }
 
 .table-2 .cell-3 {
@@ -49,7 +49,7 @@ td {
 }
 
 .nested-table .cell-nested-1,
-.nested-table .cell-nested-2-5-8,
+.cell-nested-2-5-8,
 .nested-table .cell-nested-3-6 {
   width: 33.33%;
 }
