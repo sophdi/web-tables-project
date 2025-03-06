@@ -24,7 +24,8 @@ web-tables-css/
 
 ## How to Run
 
-1. Clone the repository:  
+1. Clone the repository:
+   
   ```bash
    git clone https://github.com/sophdi/web-tables-project.git
   ```
