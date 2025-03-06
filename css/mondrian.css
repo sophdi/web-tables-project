@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: grey;
+  min-height: 100vh;
+}
+
+table {
+  border-collapse: collapse;
+  width: 800px;
+  height: 800px;
+  margin: 30px;
+}
+
+td {
+  border: 10px solid #000000;
+  text-align: center;
+  padding: 0;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: gold;
+}
+
+.white {
+  background-color: white;
+}
+
+.black {
+  background-color: black;
+}
+
+/* Стилі для окремих комірок */
+.cell1 {
+  height: 13%;
+  width: 25%;
+}
+
+.cell2 {
+  width: 40%;
+}
+
+.cell3 {
+  width: 30%;
+}
+
+.cell4 {
+  width: 5%;
+}
+
+.cell5 {
+  height: 25%;
+  width: 12.5%;
+}
+
+.cell9 {
+  height: 25%;
+}
+
+.cell11 {
+  width: 26.25%;
+}
+
+.cell12 {
+  height: 12%;
+  width: 26.25%;
+}
+
+.cell15 {
+  height: 12%;
+  width: 26.25%;
+}
+
+.cell19 {
+  height: 8%;
+}
+
