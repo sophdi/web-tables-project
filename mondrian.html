@@ -20,50 +20,18 @@
 
     table {
       border-collapse: collapse;
-      table-layout: fixed;
-      width: 700px;
-      height: 750px;
+      width: 800px;
+      height: 800px;
       margin: 30px;
     }
 
     td {
-      border: 9px solid #000000;
+      border: 10px solid #000000;
       text-align: center;
       padding: 0;
     }
 
-    /* Деталізовані розміри комірок */
-    .cell-1-2 {
-      height: 80px;
-      width: 25%;
-    }
-
-    .cell-3-4 {
-      width: 40%;
-    }
-
-    .cell-5-6 {
-      width: 30%;
-    }
-
-    .cell-8 {
-      height: 200px;
-    }
-
-    .cell-9-10-11-16-17-18 {
-      height: 250px;
-    }
-
-    .cell-19-20 {
-      height: 200px;
-    }
-
-    .cell-25,
-    .cell-32 {
-      height: 90px;
-    }
-
-    /* Кольори */
+    /* Класи для кольорів */
     .red {
       background-color: red;
     }
@@ -91,38 +59,38 @@
     <div class="container">
       <table>
         <tr>
-          <td class="white cell-1-2" colspan="2"></td>
-          <td class="white cell-3-4" colspan="2"></td>
-          <td class="yellow cell-5-6" colspan="2"></td>
-          <td class="white cell-7-14-21-28" rowspan="4"></td>
+          <td class="white" height="13%" width="25%" colspan="2"></td>
+          <td class="white" width="40%" colspan="2"></td>
+          <td class="yellow" width="30%" colspan="2"></td>
+          <td class="white" rowspan="4"></td>
         </tr>
         <tr>
-          <td class="white cell-8"></td>
-          <td class="red cell-9-10-11-16-17-18" colspan="3" rowspan="2"></td>
-          <td class="yellow cell-12-13" colspan="2"></td>
+          <td class="white" height="25%" width="10%"></td>
+          <td class="red" colspan="3" rowspan="2"></td>
+          <td class="yellow" colspan="2"></td>
         </tr>
         <tr>
-          <td class="white cell-15-22" rowspan="2"></td>
-          <td class="white cell-19"></td>
-          <td class="white cell-20"></td>
+          <td class="white" rowspan="2"></td>
+          <td class="white" height="25%"></td>
+          <td class="white"></td>
         </tr>
         <tr>
-          <td class="black cell-23-24-30-31" colspan="2" rowspan="2"></td>
-          <td class="white cell-25"></td>
-          <td class="white cell-27-28" colspan="2"></td>
+          <td class="black" colspan="2" rowspan="2" width="26.25%"></td>
+          <td class="white" height="12%" width="26.25%"></td>
+          <td class="white" colspan="2"></td>
         </tr>
         <tr>
-          <td class="yellow cell-29-36-43" rowspan="3"></td>
-          <td class="white cell-32"></td>
-          <td class="blue cell-33-34-40-41" colspan="2" rowspan="2"></td>
-          <td class="red cell-35-42-49" rowspan="3"></td>
+          <td class="yellow" rowspan="3"></td>
+          <td class="white" height="12%" width="26.25%"></td>
+          <td class="blue" colspan="2" rowspan="2"></td>
+          <td class="red" rowspan="3"></td>
         </tr>
         <tr>
-          <td class="white cell-37-38-44-45" colspan="2" rowspan="2"></td>
-          <td class="black cell-39"></td>
+          <td class="white" colspan="2" rowspan="2"></td>
+          <td class="black" height="8%"></td>
         </tr>
         <tr>
-          <td class="white cell-46-47-48" colspan="3"></td>
+          <td class="white" colspan="3"></td>
         </tr>
       </table>
     </div>
