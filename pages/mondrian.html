@@ -1,57 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mondrian Table</title>
-  <style>
-    * {
-      margin: 0;
-      box-sizing: border-box;
-    }
-
-    .container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background: grey;
-      min-height: 100vh;
-    }
-
-    table {
-      border-collapse: collapse;
-      width: 800px;
-      height: 800px;
-      margin: 30px;
-    }
-
-    td {
-      border: 10px solid #000000;
-      text-align: center;
-      padding: 0;
-    }
-
-    /* Класи для кольорів */
-    .red {
-      background-color: red;
-    }
-
-    .blue {
-      background-color: blue;
-    }
-
-    .yellow {
-      background-color: gold;
-    }
-
-    .white {
-      background-color: white;
-    }
-
-    .black {
-      background-color: black;
-    }
-  </style>
+  <link rel="stylesheet" href="../css/mondrian.css">
 </head>
 
 <body>
@@ -59,41 +12,42 @@
     <div class="container">
       <table>
         <tr>
-          <td class="white" height="13%" width="25%" colspan="2"></td>
-          <td class="white" width="40%" colspan="2"></td>
-          <td class="yellow" width="30%" colspan="2"></td>
-          <td class="white" rowspan="4" width="5%"></td>
+          <td class="white cell1" colspan="2"></td>
+          <td class="white cell2" colspan="2"></td>
+          <td class="yellow cell3" colspan="2"></td>
+          <td class="white cell4" rowspan="4"></td>
         </tr>
         <tr>
-          <td class="white" height="25%" width="12.5%"></td>
-          <td class="red" colspan="3" rowspan="2"></td>
-          <td class="yellow" colspan="2"></td>
+          <td class="white cell5"></td>
+          <td class="red cell6" colspan="3" rowspan="2"></td>
+          <td class="yellow cell7" colspan="2"></td>
         </tr>
         <tr>
-          <td class="white" rowspan="2"></td>
-          <td class="white" height="25%"></td>
-          <td class="white"></td>
+          <td class="white cell8" rowspan="2"></td>
+          <td class="white cell9"></td>
+          <td class="white cell10"></td>
         </tr>
         <tr>
-          <td class="black" colspan="2" rowspan="2" width="26.25%"></td>
-          <td class="white" height="12%" width="26.25%"></td>
-          <td class="white" colspan="2"></td>
+          <td class="black cell11" colspan="2" rowspan="2"></td>
+          <td class="white cell12"></td>
+          <td class="white cell13" colspan="2"></td>
         </tr>
         <tr>
-          <td class="yellow" rowspan="3"></td>
-          <td class="white" height="12%" width="26.25%"></td>
-          <td class="blue" colspan="2" rowspan="2"></td>
-          <td class="red" rowspan="3"></td>
+          <td class="yellow cell14" rowspan="3"></td>
+          <td class="white cell15"></td>
+          <td class="blue cell16" colspan="2" rowspan="2"></td>
+          <td class="red cell17" rowspan="3"></td>
         </tr>
         <tr>
-          <td class="white" colspan="2" rowspan="2"></td>
-          <td class="black" height="8%"></td>
+          <td class="white cell18" colspan="2" rowspan="2"></td>
+          <td class="black cell19"></td>
         </tr>
         <tr>
-          <td class="white" colspan="3"></td>
+          <td class="white cell20" colspan="3"></td>
         </tr>
       </table>
     </div>
   </main>
 </body>
+
 </html>
