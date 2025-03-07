@@ -63,30 +63,49 @@ td {
 
 /* стилі для другої таблиці */
 .table-2 {
-  width: 80%;
+  width: 75%; 
+}
+
+.table-2 .cell-1-2 {
+  height: 50px; 
 }
 
 .table-2 .cell-3 {
-  width: 60%;
+  width: 60%; 
+  height: 50px; 
 }
 
 .table-2 .cell-4 {
-  width: 28%;
+  width: 28%; 
+  height: 100px;
 }
 
-/* Стилі для вкладеної таблиці */
+.table-2 .cell-5-6 {
+  height: 100px; 
+  vertical-align: middle; 
+}
+
+.table-2 .cell-7 {
+  width: 28%; 
+  height: 100px; 
+}
+
+/* cтилі для вкладеної таблиці */
 .nested-table {
-  width: 80%;
-  margin: 30px auto;
+  width: 80%; 
+  margin: 0 auto; 
+  height: 160px; 
 }
 
-.nested-table .cell-nested-1,
-.cell-nested-2-5-8,
-.nested-table .cell-nested-3-6 {
-  width: 33.33%;
+.nested-table td {
+  text-align: center;
+  vertical-align: top;
 }
 
-.nested-table .cell-nested-3-6,
-.nested-table .cell-nested-4-7 {
-  height: 200px;
+.nested-table .cell-nested-1 {
+  height: 55px; 
+}
+
+.nested-table .cell-nested-9 {
+  height: 55px; 
 }
